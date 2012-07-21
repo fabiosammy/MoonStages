@@ -118,9 +118,9 @@ namespace NeHeLessons
                         GL.Rotate (yrot, 0.0f, 1.0f, 0.0f); 
                         
                         //Rotates Sun
-                        /*GL.Rotate(year, 0.0, 1.0, 0.0);
+                        GL.Rotate(year, 0.0, 1.0, 0.0);
                         GL.Rotate(day, 0.0, 1.0, 0.0);
-                        GL.PopMatrix();*/
+                        GL.PopMatrix();
                         
                         //sol
                         GL.PushMatrix();
@@ -133,13 +133,12 @@ namespace NeHeLessons
                         GL.PopMatrix();
                         
                         //Rotates earth
-                        /*GL.Rotate(year, 0.0, 1.0, 0.0);
+                        GL.Rotate(year, 0.0, 1.0, 0.0);
                         GL.Rotate(day, 0.0, 1.0, 0.0);
-                        GL.PopMatrix();*/
+                        GL.PopMatrix();
                         
                         ////terra
                         GL.PushMatrix();
-                        
                         GL.Color3(0.0f, 0.0f, 1.0f);
                         DrawSphere(new Vector3(14.0f, 0.0f, 14.0f), 1.0f, 16);
                         GL.PopMatrix();
