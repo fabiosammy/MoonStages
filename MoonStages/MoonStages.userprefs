@@ -1,15 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MoonStages/Program.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoonStages/MoonStages.cs">
     <Files>
-      <File FileName="MoonStages/Program.cs" Line="15" Column="1" />
-      <File FileName="MoonStages/Exercicio3.cs" Line="37" Column="25" />
+      <File FileName="MoonStages/Program.cs" Line="1" Column="1" />
+      <File FileName="MoonStages/MoonStages.cs" Line="72" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MoonStages" expanded="True" selected="True">
+          <Node name="MoonStages" expanded="True">
             <Node name="References" expanded="True" />
+            <Node name="textures" expanded="True" />
+            <Node name="MoonStages.cs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -18,4 +20,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

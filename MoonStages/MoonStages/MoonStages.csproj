@@ -37,10 +37,6 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="OpenTK, Version=0.9.9.4, Culture=neutral, PublicKeyToken=null">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\OpenTK.dll</HintPath>
-    </Reference>
     <Reference Include="Tao.FreeGlut, Version=2.4.0.2, Culture=neutral, PublicKeyToken=6e602a6ad6c0d06d">
       <Package>tao-freeglut</Package>
     </Reference>
@@ -48,5 +44,16 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="OpenTK">
+      <HintPath>lib\OpenTK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="textures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\terra.png" />
+    <None Include="textures\sol.png" />
+    <None Include="textures\lua.png" />
   </ItemGroup>
 </Project>
